@@ -14,7 +14,7 @@ Alternatively, you can pick and choose from the individual filters below. Make s
 
 ## Filters based on structure
 * **4+ consequent repeated letters**: ``regex:(.)\1{4}``
-* **multiple underscores at end of name**: ``regex:__$``
+* **multiple underscores at end of name (against impersonation)**: ``regex:__$``
 * **7+ consequent numbers (against phone number doxxing)**: ``regex:[\d|_]{7}``
 
 ## Filters based on common terms in hate raid accounts

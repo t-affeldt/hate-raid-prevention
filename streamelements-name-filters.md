@@ -54,7 +54,7 @@ They are not included in the condensed filter on the top.
 You can enable them for extra security but it is possible that they will also ban some non-malicious viewers. I recommend to instead use only the filters above and install a moderation bot like [Smashbot](https://www.smashbot.live).
 
 * **4+ consequent repeated letters**: ``(.)\1{4}``
-* **multiple underscores at end of name**: ``__$``
+* **multiple underscores at end of name (against impersonation)**: ``__$``
 * **7+ consequent numbers (against phone number doxxing)**: ``[\d|_]{7}``
 * **0031**: ``(?:0|o){2}3(?:1|i|l)``
 * **031X**: ``(?:0|o)3(?:1|i|l)[0-9]``
