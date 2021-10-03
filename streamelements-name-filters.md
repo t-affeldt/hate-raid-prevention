@@ -1,7 +1,7 @@
 # Hate Raid Filters for StreamElements
 These filters can be used to completely ban (some) malicious accounts on sight.
 StreamElements does not have a filter system for their alerts but a general content-moderation filter. Thus, this list is much shorter than the one for Streamlabs because false-positives will have a much greater impact.
-If one of your viewers gets wrongfully banned, there is no way of unbanning them again without completely disabling the respective filter. Use at your own risk.
+If one of your viewers gets wrongfully banned, you will have to mark them as a ``Regular`` and unban them.
 
 ## Setup
 1) Log into the StreamElements dashboard.
