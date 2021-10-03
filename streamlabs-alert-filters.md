@@ -26,7 +26,7 @@ Filters based on common terms in hate raid accounts:
 * **died...veteran**: ``regex:d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n``
 * **friend...veteran**: ``regex:fr(?:i|1|l)(?:e|3)nd.*v(?:e|3)t(?:e|3)r(?:a|4)n``
 * **gore**: ``regex:g(?:o|0)r(e|3)``
-* **gu...da**: ``regex:^gu[a-z]+da$ #gu...da``
+* **gu...da**: ``regex:^gu[a-z]+da$``
 * **gunxX**: ``regex:^gun[a-z][0-9]+$``
 * **gunz0**: ``regex:(?:g|9)u(?:n|m)z(?:0|o)``
 * **haha...veteran**: ``h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n``
