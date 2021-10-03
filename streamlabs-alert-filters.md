@@ -46,4 +46,4 @@ Filters based on common terms in hate raid accounts:
 * **veteran...dead**: ``regex:v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d``
 * **veteran...died**: ``regex:v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d``
 * **veteran...friend**: ``regex:v(?:e|3)t(?:e|3)r(?:a|4)n.*fr(?:i|1|l)(?:e|3)nd``
-* **veteran...haha**: ``v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
+* **veteran...haha**: ``regex:v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
