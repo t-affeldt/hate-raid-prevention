@@ -10,6 +10,7 @@ deepbot
 envyus_bot
 fossabot
 justmebottyg
+logviewer
 metaviews
 modesty_bot
 moobot
@@ -17,6 +18,7 @@ nightbot
 ohbot
 own3d
 pika_charity
+playwithviewersbot
 posadabot
 pretzelrocks
 rainmaker
@@ -30,6 +32,7 @@ spiketrapclair
 stay_hydrated_bot
 stophatebot
 streamcordbot
+streamdeckerbot
 streamelements
 streamlabs
 streamstickers
