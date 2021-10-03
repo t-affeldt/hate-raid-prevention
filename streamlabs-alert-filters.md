@@ -33,7 +33,7 @@ Alternatively, you can pick and choose from the individual filters below. Make s
 * **hoss**: ``regex:h(?:o|0)(?:s|5){2}``
 * **jjbuild**: ``regex:(?:j|i){2}bu(?:i|1|l){2}d``
 * **judgejudy**: ``regex:(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)``
-* **larsh**: ``regex:(?:l|1|i)(?:a|4)r(?:|5)h``
+* **larsh**: ``regex:(?:l|1|i)(?:a|4)r(?:s|5)h``
 * **lunar**: ``regex:(?:l|1|i)un(?:a|4)r``
 * **nigger and variants**: ``regex:(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)``
 * **nigger (more variants)**: ``n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))``
