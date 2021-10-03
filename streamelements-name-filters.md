@@ -26,7 +26,7 @@ Create a new banned phrase for each one and then copy the respective filter into
 ## All of the filters below in a single filter
 (you do not the individual filters if you use this)
 
-``b(?:a|4)b(?:o|0){2,}n|d(?:e|3)(?:a|4)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|g(?:o|0)r(e|3)|^gun[a-z][0-9]+$|h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n|(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)|(?:l|1|i)(?:a|4)r(?:|5)h|(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)|n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))|pt(?:s|5)d|(?:^|[^g])r(?:a|4)p(?:e|3)|(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*c(?:o|0)mm(?:i|1)tt|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
+``b(?:a|4)b(?:o|0){2,}n|d(?:e|3)(?:a|4)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|g(?:o|0)r(e|3)|^gun[a-z][0-9]+$|h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n|h(?:a|4)t(?:e|3).*r(?:a|4)(?:i|1|l)d|(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)|(?:l|1|i)(?:a|4)r(?:|5)h|(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)|n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))|pt(?:s|5)d|(?:^|[^g])r(?:a|4)p(?:e|3)|(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*c(?:o|0)mm(?:i|1)tt|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
 
 # Individual filters based on terms in hate raid accounts
 * **baboon**: ``b(?:a|4)b(?:o|0){2,}n``
@@ -35,6 +35,7 @@ Create a new banned phrase for each one and then copy the respective filter into
 * **gore**: ``g(?:o|0)r(?:e|3)``
 * **gunxX**: ``^gun[a-z][0-9]+$``
 * **haha...veteran**: ``h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n``
+* **hate...raid**: ``h(?:a|4)t(?:e|3).*r(?:a|4)(?:i|1|l)d``
 * **judgejudy**: ``(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)``
 * **larsh**: ``(?:l|1|i)(?:a|4)r(?:s|5)h``
 * **nigger and variants**: ``(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)``
@@ -52,6 +53,8 @@ These are the remaining filters from the Streamlabs filter list.
 They are not included in the condensed filter on the top.
 You can enable them for extra security but it is possible that they will also ban some non-malicious viewers. I recommend to instead use only the filters above and install a moderation bot like [Smashbot](https://www.smashbot.live).
 
+* **4+ consequent repeated letters**: ``(.)\1{4}``
+* **multiple underscores at end of name**: ``__$``
 * **0031**: ``(?:0|o){2}3(?:1|i|l)``
 * **031X**: ``(?:0|o)3(?:1|i|l)[0-9]``
 * **friend...veteran**: ``fr(?:i|1|l)(?:e|3)nd.*v(?:e|3)t(?:e|3)r(?:a|4)n``
