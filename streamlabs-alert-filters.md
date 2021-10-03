@@ -8,7 +8,7 @@ All of the filters below in a single filter
 =======================================
 (you do not need the others if you use this)
 
-``regex:__$|(.)\1{4}|(?:^|[^g])r(?:a|4)p(?:e|3)|(?:0|o){2}3(?:1|i|l)|(?:0|o)3(?:1|i|l)[0-9]|(?:g|9)u(?:n|m)z(?:0|o)|(?:j|i){2}bu(?:i|1|l){2}d|(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)|(?:l|1|i)un(?:a|4)r|(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)|(?:o|0){2,}(?:l|i|1){2}(?:g|9)(?:a|4)n|(?:s|5)(?:i|1|l)m(?:o|0)+(?:l|i|1){2}|(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d|^gu[a-z]+da$|^gun[a-z][0-9]+$|b(?:a|4)b(?:o|0){2,}n|b(?:l|1|i)u(?:e|3)b(?:e|3)rr(?:y|i)d(?:o|0)g|d(?:e|3)(?:a|4)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|fr(?:i|1|l)(?:e|3)nd.*v(?:e|3)t(?:e|3)r(?:a|4)n|g(?:o|0)r(e|3)|h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n|h(?:a|4)t(?:e|3)|h(?:o|0)(?:s|5){2}|n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))|pt(?:s|5)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*c(?:o|0)mm(?:i|1)tt|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*fr(?:i|1|l)(?:e|3)nd|v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
+``regex:__$|(.)\1{4}|(?:^|[^g])r(?:a|4)p(?:e|3)|(?:0|o){2}3(?:1|i|l)|(?:0|o)3(?:1|i|l)[0-9]|(?:g|9)u(?:n|m)z(?:0|o)|(?:j|i){2}bu(?:i|1|l){2}d|(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)|(?:l|1|i)(?:a|4)r(?s|5)h|(?:l|1|i)un(?:a|4)r|(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)|(?:o|0){2,}(?:l|i|1){2}(?:g|9)(?:a|4)n|(?:s|5)(?:i|1|l)m(?:o|0)+(?:l|i|1){2}|(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d|^gu[a-z]+da$|^gun[a-z][0-9]+$|b(?:a|4)b(?:o|0){2,}n|b(?:l|1|i)u(?:e|3)b(?:e|3)rr(?:y|i)d(?:o|0)g|d(?:e|3)(?:a|4)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|fr(?:i|1|l)(?:e|3)nd.*v(?:e|3)t(?:e|3)r(?:a|4)n|g(?:o|0)r(e|3)|h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n|h(?:a|4)t(?:e|3)|h(?:o|0)(?:s|5){2}|n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))|pt(?:s|5)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*c(?:o|0)mm(?:i|1)tt|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*fr(?:i|1|l)(?:e|3)nd|v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
 
 
 Filters based on structure:
@@ -34,6 +34,7 @@ Filters based on common terms in hate raid accounts:
 * **hoss**: ``regex:h(?:o|0)(?:s|5){2}``
 * **jjbuild**: ``regex:(?:j|i){2}bu(?:i|1|l){2}d``
 * **judgejudy**: ``regex:(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)``
+* **larsh**: ``regex:(?:l|1|i)(?:a|4)r(?s|5)h``
 * **lunar**: ``regex:(?:l|1|i)un(?:a|4)r``
 * **nigger and variants**: ``regex:(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)``
 * **nigger (more variants)**: ``n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))``
