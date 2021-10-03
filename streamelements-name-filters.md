@@ -24,7 +24,7 @@ Alternatively, you can also pick and choose from the list of filters.
 Create a new banned phrase for each one and then copy the respective filter into the text input. Make sure to enable ``Regular expression`` for every one of them.
 
 ## All of the filters below in a single filter
-(you do not the others if you use this)
+(you do not the individual filters if you use this)
 
 ``b(?:a|4)b(?:o|0){2,}n|d(?:e|3)(?:a|4)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|g(?:o|0)r(e|3)|^gun[a-z][0-9]+$|h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n|(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)|(?:l|1|i)(?:a|4)r(?:|5)h|(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)|n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))|pt(?:s|5)d|(?:^|[^g])r(?:a|4)p(?:e|3)|(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*c(?:o|0)mm(?:i|1)tt|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
 
@@ -46,3 +46,21 @@ Create a new banned phrase for each one and then copy the respective filter into
 * **veteran...dead**: ``v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d``
 * **veteran...died**: ``v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d``
 * **veteran...haha**: ``v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
+
+## Optional (strict) filters
+These are the remaining filters from the Streamlabs filter list.
+They are not included in the condensed filter on the top.
+You can enable them for extra security but it is possible that they will also ban some non-malicious viewers. I recommend to instead use only the filters above and install a moderation bot like [Smashbot](https://www.smashbot.live).
+
+* **0031**: ``(?:0|o){2}3(?:1|i|l)``
+* **031X**: ``(?:0|o)3(?:1|i|l)[0-9]``
+* **friend...veteran**: ``fr(?:i|1|l)(?:e|3)nd.*v(?:e|3)t(?:e|3)r(?:a|4)n``
+* **gu...da**: ``^gu[a-z]+da$``
+* **gunz0**: ``(?:g|9)u(?:n|m)z(?:0|o)``
+* **hate**: ``h(?:a|4)t(?:e|3)``
+* **hoss**: ``h(?:o|0)(?:s|5){2}``
+* **jjbuild**: ``(?:j|i){2}bu(?:i|1|l){2}d``
+* **lunar**: ``(?:l|1|i)un(?:a|4)r``
+* **ooligan**: ``(?:o|0){2,}(?:l|i|1){2}(?:g|9)(?:a|4)n``
+* **simooli**: ``(?:s|5)(?:i|1|l)m(?:o|0)+(?:l|i|1){2}``
+* **veteran...friend**: ``v(?:e|3)t(?:e|3)r(?:a|4)n.*fr(?:i|1|l)(?:e|3)nd``
