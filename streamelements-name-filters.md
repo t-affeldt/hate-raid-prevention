@@ -55,6 +55,7 @@ You can enable them for extra security but it is possible that they will also ba
 
 * **4+ consequent repeated letters**: ``(.)\1{4}``
 * **multiple underscores at end of name**: ``__$``
+* **7+ consequent numbers (against phone number doxxing)**: ``[\d|_]{7}``
 * **0031**: ``(?:0|o){2}3(?:1|i|l)``
 * **031X**: ``(?:0|o)3(?:1|i|l)[0-9]``
 * **friend...veteran**: ``fr(?:i|1|l)(?:e|3)nd.*v(?:e|3)t(?:e|3)r(?:a|4)n``
