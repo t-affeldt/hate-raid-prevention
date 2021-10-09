@@ -26,7 +26,7 @@ Create a new banned phrase for each one and then copy the respective filter into
 ## All of the filters below in a single filter
 (you do not the individual filters if you use this)
 
-``b(?:a|4)b(?:o|0){2,}n|d(?:e|3)(?:a|4)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|g(?:o|0)r(e|3)|^gun[a-z][0-9]+$|h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n|h(?:a|4)t(?:e|3).*r(?:a|4)(?:i|1|l)d|(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)|(?:l|1|i)(?:a|4)r(?:|5)h|(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)|n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))|pt(?:s|5)d|(?:^|[^g])r(?:a|4)p(?:e|3)|(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*c(?:o|0)mm(?:i|1)tt|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)``
+``(?:n|r|1|l)(?:i|1|l)(?:g|9){2,}(?:(?:e|3|o|0)r|uh|a|4)|n(?:e|3)(?:g|9)+(?:(?:e|3|o|0)r|uh|(?:a|4)(?:[^a-z]|$))|n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))|d(?:e|3)(?:a|4)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|d(?:i|1|l)(?:e|3)d.*v(?:e|3)t(?:e|3)r(?:a|4)n|h(?:a|4)h(?:a|4).*v(?:e|3)t(?:e|3)r(?:a|4)n|v(?:e|3)t(?:e|3)r(?:a|4)n.*c(?:o|0)mm(?:i|1)tt|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:e|3)(?:a|4)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*d(?:i|1|l)(?:e|3)d|v(?:e|3)t(?:e|3)r(?:a|4)n.*h(?:a|4)h(?:a|4)|(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)|(?:l|1|i)(?:a|4)r(?:s|5)h|(?:^|[^g])r(?:a|4)p(?:e|3)|(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d|b(?:a|4)b(?:o|0){2,}n|g(?:o|0)r(e|3)|h(?:a|4)t(?:e|3).*r(?:a|4)(?:i|1|l)d|pt(?:s|5)d|^gun[a-z][0-9]+$``
 
 # Individual filters based on terms in hate raid accounts
 * **baboon**: ``b(?:a|4)b(?:o|0){2,}n``
@@ -38,8 +38,9 @@ Create a new banned phrase for each one and then copy the respective filter into
 * **hate...raid**: ``h(?:a|4)t(?:e|3).*r(?:a|4)(?:i|1|l)d``
 * **judgejudy**: ``(?:j|i)ud(?:g|9)(?:e|3)(?:j|i)ud(?:y|i)``
 * **larsh**: ``(?:l|1|i)(?:a|4)r(?:s|5)h``
-* **nigger and variants**: ``(?:n|m|r|1|l)(?:i|1|l|e)(?:g|9)+(?:(?:e|3|o|0)r|uh|a|4)``
-* **nigger (more variants)**: ``n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))``
+* **nigger and variants (1/3)**: ``(?:n|r|1|l)(?:i|1|l)(?:g|9){2,}(?:(?:e|3|o|0)r|uh|a|4)``
+* **nigger and variants (2/3)**: ``n(?:e|3)(?:g|9)+(?:(?:e|3|o|0)r|uh|(?:a|4)(?:[^a-z]|$))``
+* **nigger and variants (3/3)**: ``n(?:i|1|l|e|3)(?:g|9)+(?:(?:e|3)tt|r(?:e|3)(?:s|5)|r(?:a|4))``
 * **ptsd**: ``pt(?:s|5)d``
 * **rape (but not grape)**: ``(?:^|[^g])r(?:a|4)p(?:e|3)``
 * **suicid**: ``(?:s|5)u(?:i|1|l)(?:c|z)(?:i|1|l)d``
@@ -58,6 +59,7 @@ You can enable them for extra security but it is possible that they will also ba
 * **7+ consequent numbers (against phone number doxxing)**: ``[\d|_]{7}``
 * **0031**: ``(?:0|o){2}3(?:1|i|l)``
 * **031X**: ``(?:0|o)3(?:1|i|l)[0-9]``
+* **blueberrydog**: ``b(?:l|1|i)u(?:e|3)b(?:e|3)rr(?:y|i)d(?:o|0)g``
 * **friend...veteran**: ``fr(?:i|1|l)(?:e|3)nd.*v(?:e|3)t(?:e|3)r(?:a|4)n``
 * **gu...da**: ``^gu[a-z]+da$``
 * **gunz0**: ``(?:g|9)u(?:n|m)z(?:0|o)``
